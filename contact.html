@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Purposes: This is a boilerplate web page
+    Written : -/03/2026-->
+    <head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="cars, beginner car guide, car types, car maintenance, car tips, vehicle basics, car information, learn about cars">
+    <meta name="description" content="Beginner’s Guide to Cars is a simple website that explains basic car types and car maintenance tips. It is designed for students and beginners who want to learn more about cars in an easy and clear way.">
+        <link rel="stylesheet" href="styles/styles.css">        
+        <title></title>
+    </head>
+      <body style="background: #cacaca;">
+            <header>
+                <img style="float: left;
+                display: inline;                
+                margin: 10px;
+                border: 2px solid rgb(0, 0, 0);
+                border-radius: 20px;" 
+                src="images/car_logo.PNG" alt="Company Logo" width="150" height="110">
+
+                <h1>Any queries or feedback please Complete and Submit</h1>
+                    <nav>
+                        <ul>
+                            <li><a class="anchorLarge" href="index.html">Home</a></li>
+                            <li><a class="anchorLarge" href="types.html">Car types</a></li>
+                            <li><a class="anchorLarge" href="tips.html">Maintainance Tips</a></li>
+                            <li style="border: 2px dashed rgb(60, 60, 60) !important;"><a class="anchorLarge" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+            </header>
+        
+    <main>
+        <section>
+            <p id = "mainText"></p>
+            <h3>
+                Please enter the following information:
+            </h3>
+
+            <form action="http://foo.com" method="get">
+
+            <div class="form-group">
+            <label for="first_name">First Name <span class="required">*</span></label>
+            <input type="text" id="first_name" name="first_name" required autofocus>
+            </div>
+
+            <div class="form-group">
+            <label for="last_name">Last Name <span class="required">*</span></label>
+            <input type="text" id="last_name" name="last_name" required>
+            </div>
+
+            <div class="form-group">
+            <label for="email">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="johndoe@example.com" required>
+            </div>
+
+            <div class="form-group">
+            <label>Gender</label>
+
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other" checked> Other
+            </div>
+
+            <div class="form-group">
+            <label>Heard of us</label>
+
+            <input type="checkbox" name="internet" value="internet" checked> Internet  
+            <input type="checkbox" name="paper" value="paper"> Newspaper  
+            <input type="checkbox" name="friend" value="friend"> Friend  
+            <input type="checkbox" name="add" value="add"> Others
+            </div>
+
+            <div class="form-group">
+            <label for="message">Query</label>
+
+            <textarea id="message"
+            name="message"
+            rows="5"
+            placeholder="Your message must be less than 200 characters">
+            </textarea>
+
+            </div>
+
+            <div class="buttons">
+
+            <input type="submit" value="Submit">
+
+            <input type="reset" value="Reset">
+
+            </div>
+
+            <p class="note">
+            <span class="required">*</span> indicates a required field
+            </p>
+
+            </form>
+            </section>
+
+            <section>
+            <img class="fullWidthContent" src="Images/" alt="">
+            <p id="farmDescription"><a href="https://" style="font-size: 0.7em;">Visit website for more information</a></p>
+        </section>
+        <section>
+            <h2></h2>
+            <img class="carHomePic" src="Images/" alt="">
+            <img class="carHomePic" src="Images/" alt="">
+            <img class="carHomePic" src="Images/" alt="">
+        </section>
+        
+    </main>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
+
+        header{
+            text-align:center;
+            color:rgb(0, 0, 0);
+        }
+
+        .form-container{
+            width:450px;
+            margin:40px auto;
+            padding:30px;
+
+            background:white;
+            border-radius:10px;
+
+            box-shadow:0 0 15px rgba(0,0,0,0.2);
+        }
+
+        h3{
+            text-align:center;
+        }
+
+        .form-group{
+            margin-bottom:15px;
+        }
+
+        label{
+            display:block;
+            margin-bottom:5px;
+            font-weight:bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea{
+            width:100%;
+            padding:8px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+
+        textarea{
+            resize:none;
+        }
+
+        .buttons{
+            text-align:center;
+            margin-top:20px;
+        }
+
+        input[type="submit"],
+        input[type="reset"]{
+            padding:10px 20px;
+            border:none;
+            border-radius:5px;
+          background:orange;
+          color:white;
+          cursor:pointer;
+          margin:5px;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover{
+            background:darkorange;
+        }
+
+        .required{
+            color:red;
+        }
+
+        .note{
+            font-size:12px;
+            margin-top:10px;
+        }
+    </style>
+    <footer>
+        <p>© Copyright Cars For Begginers 2026</p>
+    </footer>
+    </body>
+</html>
